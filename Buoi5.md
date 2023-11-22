@@ -160,3 +160,58 @@ Sao chép URL của repository.
 - **Bước 7: Kiểm tra và xử lý yêu cầu chỉnh sửa**
 
 - **Bước 8: Pull Request được chấp nhận và merge**
+
+## 4. UML là gì? Lí do cần vẽ UML
+
+- **UML** ( Unified Modeling Language - ngôn ngữ mô hình hóa thống nhất) là một ngôn ngữ mô hình gồm các ký hiệu đồ họa mà các phương pháp hướng đối tượng sử dụng để thiết kế các hệ thống thông tin một cách nhanh chóng.
+
+- **UML** sử dụng một hệ thống ký hiệu thống nhất biểu diễn các Phần tử mô hình (*model elements*). Tập hợp các phần tử mô hình tạo thành các **Sơ đồ UML** (UML diagrams). Có các loại sơ đồ UML chủ yếu sau:
+
+    - *Sơ đồ lớp* (Class Diagram)
+    - *Sơ đồ đối tượng* (Object Diagram)
+    - *Sơ đồ tình huống sử dụng* (Use Cases Diagram)
+    - *Sơ đồ trình tự* (Sequence Diagram)
+    - *Sơ đồ cộng tác* (Collaboration Diagram hay là Composite Structure Diagram)
+    - *Sơ đồ trạng thái* (State Machine Diagram)
+    - *Sơ đồ thành phần* (Component Diagram)
+    - *Sơ đồ hoạt động* (Activity Diagram)
+    - *Sơ đồ triển khai* (Deployment Diagram)
+    - *Sơ đồ gói* (Package Diagram)
+    - *Sơ đồ liên lạc* (Communication Diagram)
+    - *Sơ đồ tương tác* (Interaction Overview Diagram - UML 2.0)
+    - *Sơ đồ phối hợp thời gian* (Timing Diagram - UML 2.0)
+
+- **Lí do cần vẽ UML**:
+    - *Hiểu rõ Yêu Cầu*: UML giúp mô tả và hiểu rõ các yêu cầu của hệ thống từ góc độ người quản lý dự án và người sử dụng.
+    - *Thiết Kế Hệ Thống*: UML cung cấp các biểu đồ và ký hiệu để thiết kế cấu trúc và cách thức hoạt động của hệ thống.
+    - *Giao Tiếp Hiệu Quả*: UML tạo ra một ngôn ngữ chung để mô tả ý tưởng và thiết kế, giúp tăng cường giao tiếp giữa các thành viên trong nhóm phát triển và giữa nhóm phát triển và người quản lý.
+    - *Tạo Ra Tài Liệu Hệ Thống*: UML giúp tạo ra tài liệu dự án đồng thời và thực hiện, giúp dễ dàng theo dõi và duy trì hệ thống.
+    - *Kiểm Tra và Đánh Giá Thiết Kế*: Các biểu đồ UML, như biểu đồ lớp, biểu đồ tuần tự, và biểu đồ use case, có thể được sử dụng để kiểm tra và đánh giá thiết kế của hệ thống trước khi bắt đầu quá trình phát triển.
+    - *Quản Lý Các Yếu Tố Phức Tạp*: UML giúp quản lý sự phức tạp của hệ thống bằng cách tạo ra các mô hình trừu tượng để giảm bớt sự phức tạp và tăng tính rõ ràng.
+    - *Phân Chia Công Việc*: UML có thể được sử dụng để phân chia công việc giữa các thành viên trong nhóm phát triển và làm cho mỗi người hiểu rõ vai trò và trách nhiệm của mình.
+
+## 6. Mô hình Class Diagram, Activity Diagram
+
+### 6.1. Class Diagram
+>*Tài liệu tham khảo*:[Class Diagram](https://vncoder.vn/bai-viet/huong-dan-cach-thiet-ke-so-do-lop-class-diagram-trong-uml)
+
+**Định nghĩa Class Diagram**
+
+- Class diagram mô tả kiểu của các đối tượng trong hệ thống và các loại quan hệ khác nhau tồn tại giữa chúng.
+- Là một kỹ thuật mô hình hóa tồn tại ở tất cả các phương pháp phát triển hướng đối tượng.
+- Biểu đồ hay dùng nhất trong UML và gần gũi nhất với các lập trình viên.
+Giúp các lập trình viên trao đổi với nhau và hiểu rõ ý tưởng của nhau.
+
+**Các tính chất cơ bản của class diagram**
+- Tên class
+- Attribute (field, property)
+- Operation (method, function)
+
+### 6.2: Activity Diagram
+
+>*Tài liệu tham khảo*:[Activity Diagram](https://magz.techover.io/2021/08/25/tong-quan-ve-activity-diagram/)
+
+- Activity Diagram là một mô hình logic dùng để mô hình hóa các hoạt động trong một quy trình nghiệp vụ, giúp developer, tester hay chính bản thân BA dễ dàng nắm được các hướng đi của hệ thống.
+
+- Activity diagram là sơ đồ luồng xử lí của hệ thống, bao gồm luồng đi của dòng dữ liệu, dòng sự kiện. Mô tả các hoạt động trong một chức năng của hệ thống – luồng xử lý của một use case. 
+
